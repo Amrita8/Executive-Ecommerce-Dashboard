@@ -1,0 +1,25 @@
+{
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "aws-0-ap-south-1.pooler.supabase.com",
+            "driver": "PostgreSQL",
+            "name": "ecom",
+            "connectString": "postgresql://ecom_ro_user.imnzftquwjxwcwpeufwp:work-experience-read-only@aws-0-ap-south-1.pooler.supabase.com:5432/postgres?sslmode=no-verify",
+            "database": "postgres",
+            "username": "ecom_ro_user.imnzftquwjuxcwpeufwp"
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "aws-0-ap-south-1.pooler.supabase.com",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "ecom",
+            "database": "postgres",
+            "username": "ecom_ro_user.imnzftquwjuxcwpeufwp",
+            "password": "work-experience-read-only"
+        }
+    ]
+}
